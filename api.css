@@ -1,0 +1,106 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: rgb(21, 163, 228);
+    background-image:url(" https://tse1.mm.bing.net/th/id/OIP.L5Qy6kKMFDS6Lm1jC52HSAHaEc?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    
+
+}
+.container{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+    padding: 20px;
+    border-radius: 10px;
+    height:350px;
+    width: 400px;
+ box-shadow: 0 0 20px rgba(0, 123, 255, 0.6);
+
+  color: gray;
+
+}
+from{
+    margin: 30px 15px 30px 15px;
+    background: transparent;
+
+}
+from select,button,input,select{
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+    
+}
+h2{
+    margin: 10px;
+   
+    
+}
+
+form input{
+    border:1px solid lightgrey;
+    font-size:  20px; 
+    height: 30px;
+    padding-left:10px ;
+
+}
+.dropdown{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-top: 25px;
+}
+
+.dropdown i{
+    font-size: 10px;
+    margin-top:20px;
+
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius:20px;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.6);
+
+    
+}
+.select-container select{
+    font-size:19px ;
+    width:auto;
+}
+.msg{
+    margin: 30px 0 30px 0;
+    text-align: center;
+   
+}
+.exchange{
+    border:1px solid ;
+    font-size:  20px; 
+    height: 30px;
+    padding-left:10px ;
+   cursor: pointer;
+
+}
+.exchange:hover{
+    margin-left:40px ;
+    width: 320px;
+}
+img{
+    height: 60px;
+    width: 65px;
+}
+
+p{
+    font-size: 20px;
+}
+
